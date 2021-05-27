@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121741542652",
+    "project_id": "amazing-baby",
+    "storage_bucket": "amazing-baby.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121741542652:android:548f69dc5fc96420b5c379",
+        "android_client_info": {
+          "package_name": "com.assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121741542652-129qqd72uv3tpfaq3sfgv2h9d96s64bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqiV51xmY0ZFPVzTH-VpeE1vcJDEfIdvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121741542652-129qqd72uv3tpfaq3sfgv2h9d96s64bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

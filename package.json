@@ -1,0 +1,79 @@
+{
+  "name": "assignment",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-navigation/native": "^5.9.3",
+    "@react-navigation/stack": "^5.14.3",
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "expo-av": "^9.1.2",
+    "expo-google-sign-in": "^9.1.0",
+    "lodash": "^4.17.21",
+    "mobx": "^6.1.8",
+    "mobx-react": "^7.1.0",
+    "mobx-sync": "^3.0.0",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "randomcolor": "^0.6.2",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-camera": "^3.43.8",
+    "react-native-config": "^1.4.2",
+    "react-native-device-info": "^8.1.3",
+    "react-native-eva-icons": "^1.3.1",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-get-random-values": "^1.7.0",
+    "react-native-phone-input": "^1.0.9",
+    "react-native-remix-icon": "^0.3.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-sound-recorder": "^1.5.0",
+    "react-native-sqlite-storage": "^5.0.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-unimodules": "^0.13.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "@babel/plugin-transform-flow-strip-types": "^7.13.0",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/crypto-js": "^4.0.1",
+    "@types/jest": "^26.0.20",
+    "@types/lodash": "^4.14.168",
+    "@types/react-native": "^0.64.0",
+    "@types/react-native-phone-input": "^0.2.1",
+    "@types/react-native-sqlite-storage": "^5.0.0",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "17.0.1",
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
